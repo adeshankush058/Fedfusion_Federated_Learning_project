@@ -27,24 +27,27 @@ Stress detection systems usually require centralizing sensitive biometric data, 
 `pip install -r requirements.txt`
 
 ##  Usage
-### Start Server
-`python server/server_main.py`
+### data perprocessing 
+`data_preprocessing.ipymb`
 
-### Start Client
-`python client/train_local.py`
+### Start model traning
+`fl_model_traning.ipynb`
+
+### Start model traning for 50 
+`fl_50round.ipynb`
 
 
 
 ##  Model Architecture
 Video CNN, Audio Dense, ECG 1D-CNN → Fusion Network.
 
-## 🔄 Federated Workflow
+## Federated Workflow
 Initialize → Train locally → Send weights → FedAvg → Update → Repeat.
 
 ##  Outputs
 Accuracy (20 & 50 rounds), Loss curve, Smoothed accuracy.
 
-## 🔐 Privacy
+## Privacy
 No raw data leaves clients.
 
 ##  Datasets
@@ -56,7 +59,7 @@ Requires multiple clients, depends on dataset quality.
 ##  Future Enhancements
 Secure aggregation, differential privacy, mobile deployment, dashboards.
 
-## 👥 Team
+##  Team
 Adesh, Tushar
 
 
