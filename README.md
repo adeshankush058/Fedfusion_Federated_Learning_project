@@ -1,6 +1,6 @@
 # Federated Learning for Multimodal Stress Detection
 
-This project implements a privacy-preserving Federated Learning (FL) framework for human stress detection using video, audio, and ECG modalities. Each client trains locally on its device, and only model weights are shared with the server, ensuring maximum privacy and secure distributed training.
+This project implements a Federated Learning–based multimodal stress detection system that analyzes video, audio, and ECG data to identify human stress levels while preserving user privacy. Instead of sending raw data to a central server, each client device trains its own local model and only shares model updates, which are securely aggregated using the FedAvg algorithm. The system includes separate encoders for each modality, a fusion-based classifier, and a complete client–server workflow. It also provides visualizations such as accuracy curves, loss plots to evaluate training performance. This repository contains all source code, model architecture, training scripts, and federated aggregation functionality required to run and reproduce the system.
 
 ##  Features
 - Uses multimodal encoders: Video CNN, Audio Dense Network, and ECG 1D-CNN.
