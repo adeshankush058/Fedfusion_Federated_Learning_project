@@ -1,0 +1,30 @@
+# Core ML + Scientific Computing
+numpy
+scipy
+pandas
+matplotlib
+scikit-learn
+
+# Deep Learning Framework
+tensorflow
+tensorflow-addons
+
+# Audio Processing
+librosa
+soundfile
+
+# Video & Image Processing
+opencv-python
+opencv-contrib-python
+
+# Signal Processing (ECG)
+wfdb
+biosppy
+
+# Federated Learning
+flwr
+
+# Utilities
+tqdm
+h5py
+protobuf
